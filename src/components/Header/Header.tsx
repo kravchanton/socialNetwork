@@ -10,5 +10,5 @@ const Header = () => {
                     alt="logo"/>
             </header>)
 }
-console.log(classes.header)
+
 export default Header;

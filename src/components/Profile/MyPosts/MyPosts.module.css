@@ -1,8 +1,7 @@
 .content {
-    grid-area: c;
     background-color: beige;
 }
 
-.item {
-    color: brown;
+.postsBlock {
+    padding: 10px;
 }

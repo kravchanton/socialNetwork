@@ -1,16 +1,23 @@
 import React from "react";
-import classes from './MyPosts.module.css';
+import classes from './MyPost.module.css';
 
-const MyPosts = () => {
+
+
+export type MyPostType = {
+    message: string
+    likesCount: string
+}
+const MyPost = (props: MyPostType) => {
     return (
         <div>
-            My post
-            <div className={classes.item}>New post</div>
-            <div>
-                <div>Post 1</div>
-                <div>Post 2</div>
+
+            <div className={classes.content}>
+                {props.message}
             </div>
+            <span>Likes</span> {props.likesCount}
+
+
         </div>
     )
 }
-export default MyPosts;
+export default MyPost;

@@ -1,9 +1,12 @@
-.header {
-    grid-area: h;
-    background-color: #82a5c6;
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+.dialogsItem {
+    padding: 20px;
 }
 
-
-.header img {
-    width: 100px;
+.messages {
+    padding: 20px;
 }
