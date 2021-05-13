@@ -1,12 +1,10 @@
 import React from "react";
 import classes from './MyPost.module.css';
+import {MyPostType} from "../../../../App";
 
 
 
-export type MyPostType = {
-    message: string
-    likesCount: string
-}
+
 const MyPost = (props: MyPostType) => {
     return (
         <div>

@@ -3,6 +3,7 @@
     grid-area: n;
     background-color: #82a5c6;
     padding: 20px;
+    box-shadow: 1px 1px 10px #C0C0C0;
 }
 
 .item {
@@ -19,5 +20,5 @@
 }
 
 .item a.active {
-    color: brown;
+    color: #ffffff;
 }
