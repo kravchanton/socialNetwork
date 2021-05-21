@@ -1,11 +1,9 @@
 import React from "react";
 import classes from './MyPost.module.css';
-import {MyPostType} from "../../../../App";
+import {PostsType} from "../../../../redux/state";
 
 
-
-
-const MyPost = (props: MyPostType) => {
+const MyPost = (props: PostsType) => {
     return (
         <div>
 
